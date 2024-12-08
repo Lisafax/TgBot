@@ -46,7 +46,7 @@ module.exports.onChat = async ({ message, event, threadsData }) => {
       const ppz = global.functions.config.prefix;
 
       // Reply with the current prefixes
-      message.reply(`✨ | Your Baby Prefix => ${ppz}\n🌟 | Your Group Prefix => ${ppy}`);
+      message.reply(`✨ | My Prefix => ${ppz}\n🌟 | Your Group Prefix => ${ppy}`);
     }
   } catch (error) {
     console.error("Error fetching prefix:", error.message);
