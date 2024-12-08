@@ -5,7 +5,7 @@ module.exports = {
     aliases: [],
     author: "dipto",
     countDown: 5,
-    role: 3, 
+    role: 2, 
     description: "Send a message to all groups",
     commandCategory: "admin",
     guide: "{pn} <message>",
